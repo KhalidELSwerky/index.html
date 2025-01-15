@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to left, rgb(78, 192, 245),rgb(216, 228, 228));
+    height: 100vh;
+}
+.logo{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 25px; 
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f6f6;
+    text-transform: uppercase;
+    box-shadow:0px 13px 10px -10px #130e0e ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+    
+}
+ul li a{
+    margin: 10px;
+    text-decoration: none;
+    
+
+}
+.section{
+    margin: 210px 80px;
+    font-size: 20px;
+   
+}
+.section a{
+    padding: 15px 30px;
+    background-image: linear-gradient(rgb(121, 213, 255), #a39d9d);
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.section a:hover{
+    padding: 20px 35px;
+}
+.form{
+    height: 100vh;
+    padding: 2px;
+    background-image: linear-gradient(red,blue);
+}
+
+form input {
+    
+
+    padding: 7px;
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.identfy {
+   
+    box-shadow:0px 13px px 20px  #130e0e ;
+    background-image: linear-gradient(#fff,#ffd);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+}
+.identfy .organizer{
+    
+    height: 270px;
+    margin: 15px;
+    background: #f5f2f2;
+    padding: 40px;
+    box-shadow: 0px 7px 5px 5px  #a5a5a5  ;
+    
+}
+.identfy img{
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+.products{
+   
+    background-image: linear-gradient(#fff,#ffd);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+
+}
+.h2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.produce{
+    
+    
+    margin: 15px;
+    background: #f5f2f2;
+    padding: 40px;
+    box-shadow: 0px 7px 5px 5px  #a5a5a5;
+
+}
+.produce .submit{
+    width: 100%;
+    padding: 5px;
+}
