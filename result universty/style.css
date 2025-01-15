@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+
+.title{
+    width: 81%;
+    background: rebeccapurple;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.contianer{
+    width: 80%;
+    background: rebeccapurple;
+    padding: 8px;
+    margin: auto;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.result{
+    
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.name,.id,.gpa,.material{
+    background: rgb(107, 112, 106);
+    padding:5px;
+    margin: 3px;
+}
+.result button{
+    margin: 10px 0;
+    background: #ceb7b7;
+    border-radius: 10px;
+    
+}
